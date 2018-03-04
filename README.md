@@ -9,5 +9,5 @@ Accomplished Data:
 # Solution Table
 | ID | Title | Difficulty | C++ | Pyhton |
 |----|-------|------------|-----|--------|
-| 001 | Two Sum | Easy | [Completed](https://github.com/littlejoe118/Algorithms_Leetcode/blob/master/001_Two_Sum/Two_Sum.cpp) | Todo |
-| 002 | Add Two Numbers | Medium | [Completed](https://github.com/littlejoe118/Algorithms_Leetcode/blob/master/002_Add_Two_Numbers/Add_Two_Numbers.cpp) | Todo |
+| 001 | [Two Sum](https://leetcode.com/problems/two-sum/description/) | Easy | [Completed](https://github.com/littlejoe118/Algorithms_Leetcode/blob/master/001_Two_Sum/Two_Sum.cpp) | Todo |
+| 002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium | [Completed](https://github.com/littlejoe118/Algorithms_Leetcode/blob/master/002_Add_Two_Numbers/Add_Two_Numbers.cpp) | Todo |
