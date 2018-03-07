@@ -1,5 +1,5 @@
 //Author: Rookie118
-//Title: Two Sum
+//Title: Add Two Numbers
 //Completion time: 2018-03-03
 
 /*************The first version*************/
