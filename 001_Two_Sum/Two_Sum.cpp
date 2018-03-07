@@ -1,3 +1,8 @@
+//Author: Rookie118
+//Title: Two Sum
+//Completion time: 2018-03-01
+
+/*************The first version*************/
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
