@@ -1,4 +1,6 @@
-
+//Author: Rookie118
+//Title: Longest Substring Without Repeating Characters
+//Completion time: 2018-03-07
 
 /*************The first version*************/
 class Solution {
