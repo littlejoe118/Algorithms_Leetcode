@@ -1,3 +1,8 @@
+//Author: Rookie118
+//Title: Two Sum
+//Completion time: 2018-03-03
+
+/*************The first version*************/
 //Definition for singly-linked list.
 struct ListNode
 {
