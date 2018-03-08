@@ -53,3 +53,19 @@ public:
             return 0；    
     }
 };
+
+/*************The second version*************/
+class Solution {
+public:
+    int reverse(int x) {
+        int result = 0; 
+        while(x != 0)
+        {
+            result = result * 10 + x % 10;  //进行反转运算
+            if(x % 10 != result % 10)  //判断是否溢出，如果溢出则必然不满足条件
+                return 0;
+            x = x / 10;
+        }
+        return result;       
+    }
+};
