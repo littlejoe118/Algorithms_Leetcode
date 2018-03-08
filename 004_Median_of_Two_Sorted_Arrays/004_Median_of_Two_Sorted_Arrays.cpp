@@ -73,3 +73,5 @@ public:
         }  
     }
 };
+
+/*************The second version*************/
