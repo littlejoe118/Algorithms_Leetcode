@@ -4,7 +4,7 @@
 
 /**********The first version****************/
 /**********Time complexity: O(n^3)**********/
-/**********Space complexity: O(1)*********/
+/**********Space complexity: O(1)***********/
 class Solution {
 public:
     bool isPalindromic(string s, int length)  //判断字符串s是不是回文
