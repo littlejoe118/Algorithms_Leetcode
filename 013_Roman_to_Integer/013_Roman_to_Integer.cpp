@@ -6,6 +6,9 @@
 class Solution {
 public:
     int romanToInt(string s) {
+        if(s.size() == 0)
+            return 0;
+        
         int sum = 0;
         for(int i = 0; i < s.size(); ++i)
         {
