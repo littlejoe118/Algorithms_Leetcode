@@ -2,7 +2,9 @@
 //Title: Roman to Integer
 //Completion time: 2018-03-09
 
-/*************The first version*************/
+/**********The first version****************/
+/**********Time complexity: O(n)************/
+/**********Space complexity: O(1)***********/
 class Solution {
 public:
     int romanToInt(string s) {
