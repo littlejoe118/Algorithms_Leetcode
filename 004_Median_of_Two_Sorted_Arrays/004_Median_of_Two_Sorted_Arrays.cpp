@@ -1,8 +1,12 @@
-//Author: Rookie118
-//Title: Median of Two Sorted Arrays
-//Completion time: 2018-03-07
+/*
+ *Author: Rookie118
+ *Title: Median of Two Sorted Arrays
+ *Completion time: 2018-03-07
+*/
 
-/*************The first version*************/
+//The first version
+//Time complexity: O((m+n)log(m+n))
+//Space complexity: O(log(m+n))
 class Solution {
 public:
     void quicksort(vector<int>& nums, int left, int right)  //快速排序
@@ -74,4 +78,4 @@ public:
     }
 };
 
-/*************The second version*************/
+//The second version
