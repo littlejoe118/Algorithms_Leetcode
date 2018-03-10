@@ -1,8 +1,12 @@
-//Author: Rookie118
-//Title: Longest Substring Without Repeating Characters
-//Completion time: 2018-03-05
+/*
+ *Author: Rookie118
+ *Title: Longest Substring Without Repeating Characters
+ *Completion time: 2018-03-05
+*/
 
-/*************The first version*************/
+//The first version
+//Time complexity: O(n)
+//Space complexity: O(1)
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
