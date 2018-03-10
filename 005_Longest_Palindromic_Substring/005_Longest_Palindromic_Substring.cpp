@@ -1,10 +1,10 @@
-//Author: Rookie118
-//Title: Longest Palindromic Substring
-//Completion time: 2018-03-09
+/**********Author: Rookie118********************/
+/**********Title: Longest Palindromic Substring*/
+/**********Completion time: 2018-03-09**********/
 
-/**********The first version****************/
-/**********Time complexity: O(n^3)**********/
-/**********Space complexity: O(1)***********/
+//The first version
+//Time complexity: O(n^3)
+//Space complexity: O(1)
 class Solution {
 public:
     bool isPalindromic(string s, int length)  //判断字符串s是不是回文
@@ -46,5 +46,5 @@ public:
     }
 };
 
-/*************The second version*************/
+//The second version
 
