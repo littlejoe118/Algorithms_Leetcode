@@ -1,8 +1,12 @@
-//Author: Rookie118
-//Title: Two Sum
-//Completion time: 2018-03-01
+/*
+ *Author: Rookie118
+ *Title: Two Sum
+ *Completion time: 2018-03-01
+*/
 
-/*************The first version*************/
+//The first version
+//Time complexity: O(n^2)
+//Space complexity: O(1)
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
