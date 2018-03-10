@@ -1,6 +1,8 @@
-/**********Author: Rookie118****************/
-/**********Title: Reverse Integer***********/
-/**********Completion time: 2018-03-07******/
+/*
+ *Author: Rookie118
+ *Title: Reverse Integer
+ *Completion time: 2018-03-07
+*/
 
 //The first version
 //Time complexity: O(n^2)
