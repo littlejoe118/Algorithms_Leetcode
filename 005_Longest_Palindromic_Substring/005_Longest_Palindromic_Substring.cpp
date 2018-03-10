@@ -1,6 +1,8 @@
-/**********Author: Rookie118********************/
-/**********Title: Longest Palindromic Substring*/
-/**********Completion time: 2018-03-09**********/
+/*
+ *Author: Rookie118
+ *Title: Longest Palindromic Substring
+ *Completion time: 2018-03-09
+*/   
 
 //The first version
 //Time complexity: O(n^3)
