@@ -1,8 +1,12 @@
-//Author: Rookie118
-//Title: Add Two Numbers
-//Completion time: 2018-03-03
+/*
+ *Author: Rookie118
+ *Title: Add Two Numbers
+ *Completion time: 2018-03-03
+*/
 
-/*************The first version*************/
+//The first version
+//Time complexity: O(max(m,n))
+//Space complexity: O(max(m,n))
 //Definition for singly-linked list.
 struct ListNode
 {
