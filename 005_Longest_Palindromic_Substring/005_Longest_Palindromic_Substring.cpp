@@ -49,4 +49,29 @@ public:
 };
 
 //The second version
-
+//Time complexity: O(n^2)
+//Space complexity: O(1)
+class Solution {
+public:
+    string getSubstr(string s, int left, int right)
+    {
+        while(left >= 0 && right < s.size() && s[left] == s[right])
+        {
+            --left;
+            ++right;
+        }
+        return s.substr(left + 1, right - left - 1);
+    }
+    
+    string longestPalindrome(string s) {
+        string max_sub, max_str, str1, str2;
+        for(int start = 0; start < s.size(); ++start)
+        {
+            str1 = getSubstr(s, start, start);
+            str2 = getSubstr(s, start, start + 1);
+            max_str = (str1.size() > str2.size()) ? str1 : str2;
+            max_sub = (max_sub.size() < max_str.size()) ? max_str : max_sub;
+        }
+        return max_sub;
+    }
+};
