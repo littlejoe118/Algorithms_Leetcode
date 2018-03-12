@@ -55,7 +55,7 @@ class Solution {
 public:
     string getSubstr(string s, int left, int right)
     {
-        while(left >= 0 && right < s.size() && s[left] == s[right])
+        while(left >= 0 && right < s.size() && s[left] == s[right])  //扩展回文子串的长度
         {
             --left;
             ++right;
@@ -67,9 +67,9 @@ public:
         string max_sub, max_str, str1, str2;
         for(int start = 0; start < s.size(); ++start)
         {
-            str1 = getSubstr(s, start, start);
-            str2 = getSubstr(s, start, start + 1);
-            max_str = (str1.size() > str2.size()) ? str1 : str2;
+            str1 = getSubstr(s, start, start);  //一位数查找
+            str2 = getSubstr(s, start, start + 1);  //两位数查找
+            max_str = (str1.size() > str2.size()) ? str1 : str2; 
             max_sub = (max_sub.size() < max_str.size()) ? max_str : max_sub;
         }
         return max_sub;
